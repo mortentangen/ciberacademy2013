@@ -13,6 +13,7 @@ dependencies {
     compile 		'javax.servlet:servlet-api:2.5'
     //compile 		'javax.servlet.jsp:jsp-api:2.1'
     compile 		'javax.servlet:jstl:1.2'
+    compile			'ch.qos.logback:logback-classic:0.9.18'
     testCompile		'org.eclipse.jetty:jetty-webapp:7.6.12.v20130726'
     testCompile		'org.eclipse.jetty:jetty-server:7.6.12.v20130726'
     testCompile		'org.eclipse.jetty:jetty-annotations:7.6.12.v20130726'
