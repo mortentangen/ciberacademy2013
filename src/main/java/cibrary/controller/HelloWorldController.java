@@ -9,8 +9,6 @@ public class HelloWorldController {
 	
 	@RequestMapping("/helloworld")
     public String helloWorld(ModelMap model) {
-		System.out.println("hello!!!");
-		System.out.println("hello2!!!");
         model.addAttribute("message", "Hello World");
         return "/WEB-INF/views/helloworld.jsp";
     }
