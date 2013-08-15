@@ -4,7 +4,7 @@
         <title>Person opprettet</title>
     </head>
     <body>
-        <h1>Person opprettet</h1>
+        <h1>${personfbo.fornavn} ${personfbo.etternavn} med personnummer ${personfbo.personnummer} opprettet</h1>
         
     </body>
 </html>

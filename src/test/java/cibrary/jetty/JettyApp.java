@@ -15,8 +15,6 @@ public class JettyApp {
 		JoranConfigurator jc = new JoranConfigurator();
 		jc.setContext(loggercontext);
 		loggercontext.reset(); // override default configuration
-//		loggercontext.putProperty("application-name", "cibrary");
-//		jc.doConfigure("classpath:logback-test.xml");
 		
 		WebAppContext context = new WebAppContext();
 		context.setResourceBase("src/main/webapp");

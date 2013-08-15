@@ -1,5 +1,6 @@
 package cibrary.model;
 
+
 public class Person {
 
 	private long personnummer;
