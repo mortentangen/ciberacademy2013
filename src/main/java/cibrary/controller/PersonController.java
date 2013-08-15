@@ -35,7 +35,6 @@ public class PersonController {
 	
 	@RequestMapping(method=RequestMethod.GET, value="/person/opprettet")
 	public String personOpprettet() {
-		System.out.println("person opprettet");
 		return "/WEB-INF/views/person/personOpprettet.jsp";
 	}
 	
