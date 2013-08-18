@@ -22,4 +22,15 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
         <servlet-name>cibrary</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+   
+	<!--
+	<taglib>
+	  <taglib-uri>
+	    http://struts.apache.org/tags-tiles
+	  </taglib-uri>
+	  <taglib-location>
+	    /WEB-INF/tags-tiles.tld
+	  </taglib-location>
+	</taglib>
+    -->
 </web-app>
